@@ -1,25 +1,29 @@
 {
-	"name": "himiklab/yii2-sitemap-module",
-	"description": "Yii2 module for automatically generation XML Sitemap",
-	"keywords": ["yii2", "xml", "sitemap", "module"],
-	"type": "yii2-extension",
-	"license": "MIT",
-	"support": {
-		"source": "https://github.com/himiklab/yii2-sitemap-module",
-        "issues": "https://github.com/himiklab/yii2-sitemap-module/issues"
-	},
-	"authors": [
+    "name": "robot72/yii2-sitemap",
+    "description": "Yii2 module for automatically generation XML Sitemap",
+    "keywords": ["yii2", "xml", "sitemap", "module"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/robot72/yii2-sitemap",
+        "issues": "https://github.com/robot72/yii2-sitemap/issues"
+    },
+    "authors": [
         {
             "name": "HimikLab",
             "homepage" : "https://github.com/himiklab"
+        },
+        {
+            "name": "Robert Kuznetsov",
+            "homepage" : "https://github.com/robot72"
         }
-	],
-	"require": {
-		"yiisoft/yii2": "*"
-	},
-	"autoload": {
-		"psr-4": {
-            "himiklab\\sitemap\\": ""
+    ],
+    "require": {
+            "yiisoft/yii2": "*"
+    },
+    "autoload": {
+            "psr-4": {
+            "robot72\\modules\\sitemap\\": ""
         }
-	}
+    }
 }

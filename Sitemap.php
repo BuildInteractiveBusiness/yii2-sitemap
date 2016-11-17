@@ -1,11 +1,11 @@
 <?php
 /**
- * @link https://github.com/himiklab/yii2-sitemap-module
+ * @link https://github.com/robot72/yii2-sitemap
  * @copyright Copyright (c) 2014 HimikLab
  * @license http://opensource.org/licenses/MIT MIT
  */
 
-namespace himiklab\sitemap;
+namespace robot72\modules\sitemap;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -16,11 +16,13 @@ use yii\caching\Cache;
  * Yii2 module for automatically generating XML Sitemap.
  *
  * @author HimikLab
+ * @author Robert Kuznetsov
+ * 
  * @package himiklab\sitemap
  */
 class Sitemap extends Module
 {
-    public $controllerNamespace = 'himiklab\sitemap\controllers';
+    public $controllerNamespace = 'robot72\modules\sitemap\controllers';
 
     /** @var int */
     public $cacheExpire = 86400;
@@ -55,7 +57,9 @@ class Sitemap extends Module
 
     /**
      * Build and cache a site map.
+     *
      * @return string
+     *
      * @throws \yii\base\InvalidConfigException
      */
     public function buildSitemap()

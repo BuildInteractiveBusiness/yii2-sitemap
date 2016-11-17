@@ -1,11 +1,11 @@
 <?php
 /**
- * @link https://github.com/himiklab/yii2-sitemap-module
+ * @link https://github.com/robot72/yii2-sitemap
  * @copyright Copyright (c) 2014 HimikLab
  * @license http://opensource.org/licenses/MIT MIT
  */
 
-namespace himiklab\sitemap\behaviors;
+namespace robot72\modules\sitemap\behaviors;
 
 use yii\base\Behavior;
 use yii\base\InvalidConfigException;
@@ -40,7 +40,7 @@ use yii\base\InvalidConfigException;
  *
  * @see http://www.sitemaps.org/protocol.html
  * @author HimikLab
- * @package himiklab\sitemap
+ * @author Robert Kuznetsov
  */
 class SitemapBehavior extends Behavior
 {

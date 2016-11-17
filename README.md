@@ -9,13 +9,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 * Either run
 
 ```
-php composer.phar require --prefer-dist "himiklab/yii2-sitemap-module" "*"
+php composer.phar require --prefer-dist "robot72/yii2-sitemap-module" "*"
 ```
 
 or add
 
 ```json
-"himiklab/yii2-sitemap-module" : "*"
+"robot72/yii2-sitemap" : "*"
 ```
 
 to the `require` section of your application's `composer.json` file.
@@ -35,7 +35,7 @@ to the `require` section of your application's `composer.json` file.
 ```php
 'modules' => [
     'sitemap' => [
-        'class' => 'himiklab\sitemap\Sitemap',
+        'class' => 'robot72\modules\sitemap\Sitemap',
         'models' => [
             // your models
             'app\modules\news\models\News',
@@ -67,7 +67,7 @@ to the `require` section of your application's `composer.json` file.
             // your additional urls
             [
                 'loc' => '/news/index',
-                'changefreq' => \himiklab\sitemap\behaviors\SitemapBehavior::CHANGEFREQ_DAILY,
+                'changefreq' => \robot72\modules\sitemap\behaviors\SitemapBehavior::CHANGEFREQ_DAILY,
                 'priority' => 0.8,
                 'news' => [
                     'publication'   => [
@@ -101,7 +101,7 @@ to the `require` section of your application's `composer.json` file.
 * Add behavior in the AR models, for example:
 
 ```php
-use himiklab\sitemap\behaviors\SitemapBehavior;
+use robot72\modules\sitemap\behaviors\SitemapBehavior;
 
 public function behaviors()
 {

@@ -1,6 +1,6 @@
 <?php
 /**
- * @link https://github.com/himiklab/yii2-sitemap-module
+ * @link https://github.com/robot72/yii2-sitemap
  * @copyright Copyright (c) 2014 HimikLab
  * @license http://opensource.org/licenses/MIT MIT
  *

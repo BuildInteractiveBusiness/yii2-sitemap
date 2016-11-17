@@ -1,17 +1,20 @@
 <?php
 /**
- * @link https://github.com/himiklab/yii2-sitemap-module
+ * @link https://github.com/robot72/yii2-sitemap
  * @copyright Copyright (c) 2014 HimikLab
  * @license http://opensource.org/licenses/MIT MIT
  */
 
-namespace himiklab\sitemap\controllers;
+namespace robot72\modules\sitemap\controllers;
 
 use Yii;
 use yii\web\Controller;
 
 /**
+ * Controller for generate sitemap.xml file
+ *
  * @author HimikLab
+ * @author Robert Kuznetsov
  * @package himiklab\sitemap
  */
 class DefaultController extends Controller
