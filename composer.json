@@ -1,12 +1,12 @@
 {
-    "name": "robot72/yii2-sitemap",
+    "name": "buildinteractivebusiness/yii2-sitemap",
     "description": "Yii2 module for automatically generation XML Sitemap",
     "keywords": ["yii2", "xml", "sitemap", "module"],
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "source": "https://github.com/robot72/yii2-sitemap",
-        "issues": "https://github.com/robot72/yii2-sitemap/issues"
+        "source": "https://github.com/buildinteractivebusiness/yii2-sitemap",
+        "issues": "https://github.com/buildinteractivebusiness/yii2-sitemap/issues"
     },
     "authors": [
         {

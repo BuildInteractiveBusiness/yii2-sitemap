@@ -16,7 +16,6 @@ use yii\caching\Cache;
  * Yii2 module for automatically generating XML Sitemap.
  *
  * @author HimikLab
- * @author Robert Kuznetsov
  * 
  * @package himiklab\sitemap
  */
