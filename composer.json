@@ -5,8 +5,8 @@
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "source": "https://github.com/buildinteractivebusiness/yii2-sitemap",
-        "issues": "https://github.com/buildinteractivebusiness/yii2-sitemap/issues"
+        "source": "https://github.com/malankateam/yii2-sitemap",
+        "issues": "https://github.com/malankateam/yii2-sitemap/issues"
     },
     "authors": [
         {
